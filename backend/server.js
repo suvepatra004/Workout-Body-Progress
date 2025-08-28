@@ -1,7 +1,10 @@
 const express = require("express");
 
-const app = express();
 const PORT = process.env.PORT || 3000;
+const workoutsRoutes = require("./routes/workouts");
+
+// express app
+const app = express();
 
 // Middleware
 app.use((req, res, next) => {
@@ -11,7 +14,7 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.get("/", (req, res) => res.send({ message: "Welcome to WEB3" }));
+app.use("/api/workouts", workoutsRoutes);
 
 // Start the server
 app.listen(PORT, () =>
