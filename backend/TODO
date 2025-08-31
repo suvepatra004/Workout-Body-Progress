@@ -3,6 +3,3 @@ Project:
     - A MERN stack application to track workouts and body progress.
     - Features user authentication, workout logging, and progress visualization.
 
-Project Credentials:
-    - Mongodb password - 6XXeLcNEr9p4wP1l
-    - link - mongodb+srv://rativeprojectsuve_db_user:6XXeLcNEr9p4wP1l@workouts-mern-app.cibtdxy.mongodb.net/
