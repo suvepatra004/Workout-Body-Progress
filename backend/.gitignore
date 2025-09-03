@@ -5,7 +5,7 @@ node_modules/
 .env
 
 #TODO
-.TODO
+TODO
 
 # Build output
 dist/
