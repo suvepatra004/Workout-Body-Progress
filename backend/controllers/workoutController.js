@@ -34,9 +34,21 @@ const createWorkout = async (req, res) => {
 };
 
 // Delete a workout
+const deleteWorkout = (req, res) => {
+  const { id } = req.params;
+  res.json({ message: "DELETE a single workout" });
+};
+
+// Patch (update) a workout
+const updateWorkout = (req, res) => {
+  const { id } = req.params;
+  res.json({ message: "UPDATE a single workout" });
+};
 
 module.exports = {
   createWorkout,
   getWorkouts,
   getWorkout,
+  deleteWorkout,
+  updateWorkout,
 };
