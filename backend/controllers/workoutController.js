@@ -54,7 +54,19 @@ const deleteWorkout = async (req, res) => {
 // Patch (update) a workout
 const updateWorkout = (req, res) => {
   const { id } = req.params;
-  res.json({ message: "UPDATE a single workout" });
+
+  // It will check if workout id is valid in mongoose database model or not
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "No Such Workout Exists" });
+  }
+
+  const workout = Workout.findOneAndUpdate({ _id: id }, { ...req.body });
+
+  if (!workout) {
+    return res.status(404).json({ error: "No Such Workout Exists" });
+  }
+
+  res.status(200).json(workout);
 };
 
 module.exports = {
