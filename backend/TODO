@@ -2,11 +2,18 @@
 
 ## TODO
 
-Project:
+Backend:
     - A MERN stack application to track workouts and body progress.
     - Features user authentication, workout logging, and progress visualization.
     - Backend with Node.js, Express, MongoDB; Frontend with React.
     - Added all request to handle CRUD operations for workouts.
+    ☐ User authentication (login/signup) @high
+    ☐ Progress tracking with charts @medium
+    ☐ Responsive design for mobile and desktop @low
+    ☐ More workout categories and filters @low
+    ☐ Deployment to GitHub Pages and Heroku @medium
+    ☐ Add Error handling and validation @high
+
 
 * @today 6th Sept 2025
     ✔ Setup Express server and MongoDB connection. @done(25-09-06 20:00)
@@ -14,3 +21,9 @@ Project:
     ✔ Implemented CRUD API endpoints for workouts. @done(25-09-06 21:00)
     ✔ Tested API endpoints using Postman. @done(25-09-06 21:30)
     ✔ @WAE @done(25-09-06 21:45)
+
+* @today 7th Sept 2025
+    ✔ Setup CORS middleware for cross-origin requests. @done(25-09-07 14:06)
+    ✔ Done fetching workouts from backend in frontend. @done(25-09-07 14:06)
+    ✔ @WAE @done(25-09-07 14:07)
+    
