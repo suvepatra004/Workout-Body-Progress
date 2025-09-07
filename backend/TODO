@@ -1,5 +1,16 @@
-Project Workout Body Progress 
+# Project Workout Body Progress 
+
+## TODO
+
 Project:
     - A MERN stack application to track workouts and body progress.
     - Features user authentication, workout logging, and progress visualization.
+    - Backend with Node.js, Express, MongoDB; Frontend with React.
+    - Added all request to handle CRUD operations for workouts.
 
+* @today 6th Sept 2025
+    ✔ Setup Express server and MongoDB connection. @done(25-09-06 20:00)
+    ✔ Created Workout model with Mongoose. @done(25-09-06 20:30)
+    ✔ Implemented CRUD API endpoints for workouts. @done(25-09-06 21:00)
+    ✔ Tested API endpoints using Postman. @done(25-09-06 21:30)
+    ✔ @WAE @done(25-09-06 21:45)
