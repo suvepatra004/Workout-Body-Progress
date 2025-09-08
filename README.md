@@ -4,13 +4,11 @@
 
 Built using a robust **MERN (MongoDB • Express • React • Node.js)** tech stack, this project emphasizes clean architecture, responsive UI, and real-time data flow—perfect for showcasing skills in full-stack **Software Development / Application Engineering**.
 
----
 
 ##  Problem Statement
 
 Many fitness enthusiasts struggle to keep track of exercise routines, progression, and body transformation over time. Spreadsheet logs are cumbersome, and off-the-shelf fitness apps often lack personalization. **Workout Body Progress solves this by providing a unified, intuitive interface for logging workouts, tracking milestones, and maintaining motivation.**
 
----
 
 ##  Key Features
 
@@ -37,7 +35,6 @@ Many fitness enthusiasts struggle to keep track of exercise routines, progressio
 - ** Full-stack**:  
   - **MERN stack** (MongoDB, Express, React, Node.js)  
 
----
 
 ##  Why This Matters (SD/A E Keywords)
 
@@ -47,7 +44,6 @@ Many fitness enthusiasts struggle to keep track of exercise routines, progressio
 - **Data persistence** ensures reliable **CRUD** operations and long-term tracking.
 - **Problem-solving mindset**: addresses real-user pain point—streamlining workout tracking through elegant, user-centric design.
 
----
 
 ##  Getting Started
 
@@ -68,7 +64,6 @@ Many fitness enthusiasts struggle to keep track of exercise routines, progressio
     ```
 5. Navigate to `http://localhost:3000` (frontend) and start logging your progress!
 
----
 
 ##  Future Enhancements
 
@@ -77,7 +72,6 @@ Many fitness enthusiasts struggle to keep track of exercise routines, progressio
 - Mobile-first design or PWA capabilities
 - Export reports or integrate with third-party fitness APIs
 
----
 
 ##  License
 
