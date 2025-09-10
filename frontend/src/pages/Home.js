@@ -35,3 +35,11 @@ const Home = () => {
 };
 
 export default Home;
+
+/**
+   * eveloped a React-based Home dashboard that fetches workout data from an API and manages state using React Hooks (useState, useEffect).
+
+  * Implemented dynamic rendering of workout details using reusable components for better modularity and maintainability.
+
+  * Integrated a WorkoutForm component to allow users to add new workouts, ensuring smooth data flow and real-time UI updates.
+ */

@@ -13,3 +13,9 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+/**
+ * -------- Navigation bar ---------
+ * 1. Main component logo.
+ * 2. Also can add the next chanegs.
+ */
