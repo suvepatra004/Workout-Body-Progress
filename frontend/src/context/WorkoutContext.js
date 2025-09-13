@@ -28,7 +28,11 @@ export const WorkoutContextProvider = ({ children }) => {
     workouts: null,
   });
   //
-  return <WorkoutsContext.Provider>{children}</WorkoutsContext.Provider>;
+  return (
+    <WorkoutsContext.Provider value={{ ...state, dispatch }}>
+      {children}
+    </WorkoutsContext.Provider>
+  );
 };
 
 /**
@@ -48,5 +52,11 @@ export const WorkoutContextProvider = ({ children }) => {
  * 1. It is a way to handle different actions that can be triggered by the user.
  * 2. It is a way to centralize state management in a React application.
  *
+ * Why use reducer?
+ * 1. It is a way to manage state in a React application.
+ * 2. It is a way to centralize state management in a React application.
  *
+ * Why use useReducer?
+ * 1. It is a way to manage state in a React application.
+ * 2. It is a way to centralize state management in a React application.
  */
